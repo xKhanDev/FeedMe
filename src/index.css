@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+.font_text {
+  font-family: "Outfit", sans-serif;
+}
+
+.bg_gradient {
+  background: linear-gradient(to right, #061019, #17212d);
+}
+.main_bg {
+  background-color: #0b121a;
+}
+
+.light_bg {
+  background-color: #121c26;
+}
+
+.span_bg {
+  background-color: #212a39;
+}
+
+.button_bg {
+  background-color: #121c28;
+}
+
+.white_text {
+  color: #eaf3f5;
+}
+
+.gray_text {
+  color: #cdd8e1;
+}
+
+.green_text {
+  color: #01ffa7;
+}
+.green_bg:hover {
+  background-color: #00cd7e;
+}
+.green_bg {
+  background-color: #01ffa7;
+}
+.my_btn {
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.border_btn {
+  border: 0.5px solid #01ffa7;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
