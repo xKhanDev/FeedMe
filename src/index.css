@@ -66,3 +66,12 @@ body {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
+
+.no_scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no_scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

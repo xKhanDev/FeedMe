@@ -44,7 +44,7 @@ const FAQ = () => {
     <div className="w-full my-6" id="faq">
       {data.map((faq) => {
         return (
-          <div className="collapse collapse-arrow">
+          <div className="collapse collapse-arrow" key={faq.id}>
             <input type="radio" name="my-accordion-2" />
             <div className="collapse-title text-xl font-medium border-b-[0.5px] border-gray-400">
               {faq.question}

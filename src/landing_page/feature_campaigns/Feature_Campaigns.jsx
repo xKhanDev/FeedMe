@@ -22,7 +22,7 @@ const Feature_Campaigns = () => {
       <h1 className="capitalize font-bold text-2xl w-full">
         Feature campaigns
       </h1>
-      <div className="flex items-center gap-4 my-2">
+      <div className="flex items-center gap-4 my-2 no_scrollbar overflow-x-auto">
         <button
           className={`py-2 px-6 ${
             active === "All" ? "bg-[#1b2836]" : "bg-gray-500"
