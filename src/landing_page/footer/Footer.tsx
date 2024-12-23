@@ -50,8 +50,8 @@ const Footer: React.FC = () => {
           {/* Social Media Links */}
           <div className="mb-4 md:mb-0">
             <span className="font-bold mr-2">Follow Us:</span>
-            <a href="#" className="mr-4">Github</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://github.com/xKhanDev" target="_blank" className="mr-4">Github</a>
+            <a href="www.linkedin.com/in/safeer-khan-x" target='_blank'>LinkedIn</a>
           </div>
           
         </div>

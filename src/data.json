@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "title":"I need money for my tuition",
+        "image":"/campaign/education.jpg",
+        "category":"Education",
+        "deadline":"31/12/2025",
+        "goal":1000,
+        "raised":100
+    },
+    {
+        "id":2,
+        "title":"I need money for my healthcare",
+        "image":["/campaign/tablet.jpg","/campaign/tablet2.jpg"],
+        "category":"Healthcare",
+        "deadline":"31/12/2025",
+        "goal":1000,
+        "raised":50
+    },
+    {
+        "id":3,
+        "title":"I need money for my food",
+        "image":"/campaign/poor.jpg",
+        "category":"Food",
+        "deadline":"31/12/2025",
+        "goal":1000,
+        "raised":800
+    },
+    {
+        "id":4,
+        "title":"I need money for my medicine",
+        "image":"/campaign/tablet2.jpg",
+        "category":"Healthcare",
+        "deadline":"31/12/2025",
+        "goal":1000,
+        "raised":500
+    },
+    {
+        "id":5,
+        "title":"I need money for my bird to feed",
+        "image":"/campaign/duckkid.jpg",
+        "category":"Animals",
+        "deadline":"31/12/2025",
+        "goal":1000,
+        "raised":900
+    },
+    {
+    "id":6,
+    "title":"I need money for my duck medicine",
+    "image":["/campaign/duck.jpg","/campaign/duckkid.jpg"],
+    "category":"Animals",
+    "deadline":"31/12/2025",
+    "goal":1000,
+    "raised":200
+}
+]
